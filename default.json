@@ -12,7 +12,7 @@
       "extends": ["schedule:automergeDaily"]
     },
     {
-      "matchPackageNames": ["aws-sdk"],
+      "matchPackagePatterns": [".*aws\\-sdk.*"],
       "extends": ["schedule:monthly"]
     }
   ]
